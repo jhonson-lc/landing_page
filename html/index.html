@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" sizes="32x32" href="./images/favicon-32x32.ico">
+    <link rel="stylesheet" href="/style/styles.css">
+    <title>Landing page | Loopstudios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="menunav">
+            <h1 class="menunav__title">loopstudios</h1>
+            <nav class="menunav__menu">
+                <ul id="wrapper_navbar"></ul>
+            </nav>
+        </div>
+        <h1 class="hero__mens--title">Immersive experiences that deliver</h1>
+    </header>
+    <main class="principal">
+        <article class="article">
+            <div class="interactive">
+                <h1 class="interactive__title">The leader in interactive VR</h1>
+                <p class="interactive__copy">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their
+                    brand.
+                </p>
+            </div>
+            <img src="../assets/desktop/image-interactive.jpg" alt="" class="interactive__img">
+        </article>
+        <section class="gallery">
+            <div class="gallery__head">
+                <h class="gallery__title">OUR CREATIONS</h>
+                <a href="#" class="gallery__seeall">SEE ALL</a>
+            </div>
+        </section>
+        <section class="gallery__items">
+            <section class="gallery__imgs">
+                <template id="template__gallery">
+                    <article class="gallery__divs">
+                        <img src="../assets/desktop/image-deep-earth.jpg" alt="Deep Earth" class="gallery__imgs-img">
+                        <span class="items__subtitle">DEEP EARTH</span>
+                    </article>
+                </template>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <h1 class="menunav__title menunav__title--footer">loopstudios</h1>
+        <section class="footer__socialsmedia"></section>
+        <nav class="menunav__menu menunav__menu--footer">
+            <ul id="wrapper_navbar-footer"></ul>
+        </nav>
+        <div class=" footer__copy ">
+            <span class=" copyright ">© 2021 Loopstudios. All rights reserved.</span>
+        </div>
+    </footer>
+    <script type="module" src="../js/main.js"></script>
+</body>
+
+</html>
